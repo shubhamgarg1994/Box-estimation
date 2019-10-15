@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<launch>
+
+  <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find box_estimation)/config/box.rviz"/> -->
+
+  <!-- <node pkg="rosbag" type="play" name="player" args="$(find box_estimation)/bag/box.bag" output="screen"/> -->
+
+  <node name="box_estimation" pkg="box_estimation" type="box_estimation" output="screen">
+  </node>
+
+</launch>
